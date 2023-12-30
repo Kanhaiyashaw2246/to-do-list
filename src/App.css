@@ -1,10 +1,20 @@
-.App {
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.container{
+  
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  border: 2px solid red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container figure{
+  margin-top:5rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
